@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="var" path="M2_REPO"/>
+	<classpathentry kind="lib" path="C:/Users/hrishikesh.k/.m2/repository/org/apache/hadoop/hadoop-common/3.1.0/hadoop-common-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hrishikesh.k/.m2/repository/org/apache/hadoop/hadoop-client/3.1.0/hadoop-client-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hrishikesh.k/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.0/hadoop-mapreduce-client-common-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hrishikesh.k/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.0/hadoop-mapreduce-client-core-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hrishikesh.k/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/3.1.0/hadoop-mapreduce-client-jobclient-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hrishikesh.k/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
