@@ -18,7 +18,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>ExpressionFinder</mainClass>
+              <!-- mainClass>SequenceFileCreator</mainClass-->
             </manifest>
           </archive>
         </configuration>

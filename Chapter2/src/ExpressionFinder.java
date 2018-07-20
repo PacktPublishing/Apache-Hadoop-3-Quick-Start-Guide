@@ -37,6 +37,7 @@ import org.apache.hadoop.util.GenericOptionsParser;
 
 public class ExpressionFinder {
 
+
 	public static class IdentifyTokenMapper extends Mapper<Object, Text, Text, IntWritable> {
 
 		private final static IntWritable one = new IntWritable(1);
@@ -52,7 +53,7 @@ public class ExpressionFinder {
 	        }
 		}
 	}
-
+	
 	public static class MatchedTermReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
 		private IntWritable result = new IntWritable();
 
