@@ -1,3 +1,4 @@
+package org.hk.book.hadoop3.examples;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,18 +1,18 @@
+package org.hk.book.hadoop3.examples;
 import java.io.IOException;
 
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
-import org.apache.hadoop.mapreduce.Reducer;
-import org.apache.hadoop.mapreduce.Reducer.Context;
+import org.apache.hadoop.mapreduce.Mapper.Context;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat;
+
+
 
 /**
 	Copyright [2018] [Hrishikesh Karambelkar]
@@ -30,11 +30,12 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 	limitations under the License.
 **/
 /**
- * This is a sequence file creation class
+ * This is a sequence file reader class
  * @author hrishikesh.k
  *
  */
-public class SequenceFileCreator {
+
+public class SequenceFileReader {
 	/**
 	 * This is a mapper class for reading the file information and put it in sequences
 	 * 
@@ -56,14 +57,15 @@ public class SequenceFileCreator {
 		Configuration conf = new Configuration();
 		
 		if (args.length < 2) {
-			System.err.println("Usage: SequenceFileCreator <input-path> <output-file-path>");
+			System.err.println("Usage: SequenceFileReader <input-seq-file> <output-text-file-path>");
 			System.exit(2);
 		}
 
 		Job job = Job.getInstance(conf, "Sequence File Creator");
-		job.setJarByClass(SequenceFileCreator.class);
+		job.setJarByClass(SequenceFileReader.class);
+		job.setInputFormatClass(SequenceFileInputFormat.class);
 		job.setMapperClass(ReadFileMapper.class);
-		job.setOutputFormatClass(SequenceFileOutputFormat.class);
+		
 
 		FileInputFormat.addInputPath(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));

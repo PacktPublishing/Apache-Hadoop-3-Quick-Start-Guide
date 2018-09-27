@@ -1,3 +1,4 @@
+package org.hk.book.hadoop3.examples;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.mapreduce.JobContext;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;

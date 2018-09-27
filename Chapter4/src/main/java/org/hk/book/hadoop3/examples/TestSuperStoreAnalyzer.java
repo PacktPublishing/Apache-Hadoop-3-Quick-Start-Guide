@@ -1,3 +1,4 @@
+package org.hk.book.hadoop3.examples;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
