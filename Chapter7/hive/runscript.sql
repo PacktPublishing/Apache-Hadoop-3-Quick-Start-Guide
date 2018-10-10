@@ -1,0 +1,10 @@
+create schema hadoop3book;
+use hadoop3book;
+create table if not exists students (student_id int,name String,gender String,dept_id int) row format delimited fields terminated by ',';
+load data local inpath '/home/labuser/hiveqry/students.csv' overwrite into table students;
+create table if not exists hadoop3book.departments(dept_id int,dept_name String) row format delimited fields terminated by ',';
+load data local inpath '/home/labuser/hiveqry/departments.csv' overwrite into table departments;
+select s.name, s.gender, d.dept_name from students s, departments d where d.dept_id=s.dept_id;
+drop table students;
+drop table departments;
+drop schema hadoop3book;
