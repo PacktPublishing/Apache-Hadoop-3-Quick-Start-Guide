@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 public class MyApplication2 {
 	public MyApplication2() {
-		System.out.println("Inside MyApplication2 Consutrctor ");
+		System.out.println("Inside MyApplication2 Constructor ");
 	}
 
 	public void calculatePI() {

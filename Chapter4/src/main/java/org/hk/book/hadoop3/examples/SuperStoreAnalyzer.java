@@ -130,7 +130,7 @@ public class SuperStoreAnalyzer {
 		job.setMapOutputKeyClass(Text.class);
 		job.setReducerClass(SuperStoreReducer.class);
 		job.setOutputKeyClass(Text.class);
-		job.setOutputValueClass(IntWritable.class);
+		job.setOutputValueClass(Text.class);
 		job.setNumReduceTasks(1);
 	
 		job.waitForCompletion(true);
