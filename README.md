@@ -1,23 +1,20 @@
-# Scaling Big Data with Hadoop and Solr - Second Edition
+# Apache Hadoop 3 Quick Start Guide
 
-<a href="https://www.packtpub.com/big-data-and-business-intelligence/scaling-big-data-hadoop-and-solr-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781783553396 "><img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/3396OS_Scaling%20Big%20Data%20with%20Hadoop%20and%20Solr%20-%20Second%20Edition.jpg" alt="Scaling Big Data with Hadoop and Solr - Second Edition" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/big-data-and-business-intelligence/apache-hadoop-3-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781788999830"><img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/3396OS_Scaling%20Big%20Data%20with%20Hadoop%20and%20Solr%20-%20Second%20Edition.jpg" alt="Apache Hadoop 3 Quick Start Guide" height="256px" align="right"></a>
 
-This is the code repository for [Scaling Big Data with Hadoop and Solr - Second Edition](https://www.packtpub.com/big-data-and-business-intelligence/scaling-big-data-hadoop-and-solr-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781783553396 ), published by Packt.
+This is the code repository for [Apache Hadoop 3 Quick Start Guide](https://www.packtpub.com/big-data-and-business-intelligence/apache-hadoop-3-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781788999830), published by Packt.
 
 **Learn about big data processing and analytics**
 
 ## What is this book about?
-Together, Apache Hadoop and Apache Solr help organizations resolve the problem of information extraction from big data by providing excellent distributed faceted search capabilities.
+Apache Hadoop is a widely used distributed data platform. It enables large datasets to be efficiently processed instead of using one large computer to store and process the data. This book will get you started with the Hadoop ecosystem, and introduce you to the main technical topics, including MapReduce, YARN, and HDFS.
 
 This book covers the following exciting features:
-Understand Apache Hadoop, its ecosystem, and Apache Solr 
-Explore industry-based architectures by designing a big data enterprise search with their applicability and benefits 
-Integrate Apache Solr with big data technologies such as Cassandra to enable better scalability and high availability for big data 
-Optimize the performance of your big data search platform with scaling data 
-Write MapReduce tasks to index your data 
-Configure your Hadoop instance to handle real-world big data problems 
-Work with Hadoop and Solr using real-world examples to benefit from their practical usage 
-Use Apache Solr as a NoSQL database 
+* Store and analyze data at scale using HDFS, MapReduce and YARN
+* Install and configure Hadoop 3 in different modes
+* Use Yarn effectively to run different applications on Hadoop based platform
+* Understand and monitor how Hadoop cluster is managed
+* Consume streaming data using Storm, and then analyze it using Spark
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1788999835) today!
 
@@ -56,9 +53,9 @@ Click on the following link to see the Code in Action:
 
 
 ### Related products
-*  [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/hadoop-2x-administration-cookbook?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1787126730)
+*  [[Hadoop 2.x Administration Cookbook]](https://www.packtpub.com/big-data-and-business-intelligence/hadoop-2x-administration-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781787126732) [[Amazon]](https://www.amazon.com/dp/1787126730)
 
-* Hadoop Real-World Solutions Cookbook - Second Edition [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/hadoop-real-world-solutions-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781784395506 ) [[Amazon]](https://www.amazon.com/dp/B01BYFJVZ4)
+* [[Hadoop Real-World Solutions Cookbook - Second Edition]] (https://www.packtpub.com/big-data-and-business-intelligence/hadoop-real-world-solutions-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781784395506 ) [[Amazon]](https://www.amazon.com/dp/B01BYFJVZ4)
 
 
 ## Get to Know the Author
