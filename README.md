@@ -1,6 +1,6 @@
 # Apache Hadoop 3 Quick Start Guide
 
-<a href="https://www.packtpub.com/big-data-and-business-intelligence/apache-hadoop-3-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781788999830"><img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/3396OS_Scaling%20Big%20Data%20with%20Hadoop%20and%20Solr%20-%20Second%20Edition.jpg" alt="Apache Hadoop 3 Quick Start Guide" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/big-data-and-business-intelligence/apache-hadoop-3-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781788999830"><img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/9781788999830.png" alt="Apache Hadoop 3 Quick Start Guide" height="256px" align="right"></a>
 
 This is the code repository for [Apache Hadoop 3 Quick Start Guide](https://www.packtpub.com/big-data-and-business-intelligence/apache-hadoop-3-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781788999830), published by Packt.
 
