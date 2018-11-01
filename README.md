@@ -53,9 +53,9 @@ Click on the following link to see the Code in Action:
 
 
 ### Related products
-*  [[Hadoop 2.x Administration Cookbook]](https://www.packtpub.com/big-data-and-business-intelligence/hadoop-2x-administration-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781787126732) [[Amazon]](https://www.amazon.com/dp/1787126730)
+*  Hadoop 2.x Administration Cookbook [[Packt]] (https://www.packtpub.com/big-data-and-business-intelligence/hadoop-2x-administration-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781787126732) [[Amazon]](https://www.amazon.com/dp/1787126730)
 
-* [[Hadoop Real-World Solutions Cookbook - Second Edition]] (https://www.packtpub.com/big-data-and-business-intelligence/hadoop-real-world-solutions-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781784395506 ) [[Amazon]](https://www.amazon.com/dp/B01BYFJVZ4)
+* Hadoop Real-World Solutions Cookbook - Second Edition [[Packt]] (https://www.packtpub.com/big-data-and-business-intelligence/hadoop-real-world-solutions-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781784395506 ) [[Amazon]](https://www.amazon.com/dp/B01BYFJVZ4)
 
 
 ## Get to Know the Author
